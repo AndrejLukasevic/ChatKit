@@ -1,6 +1,18 @@
 # ChatKit for Android
 
 This Fork Created and made access to some classes and methods, to be able to make more complicated message styling
+Using this fork u need to include AAR artifact from Releases Page.
+Also when adding AAR lib. You need to add folowind ependencies mannually
+
+    dependencies {
+        compile fileTree(include: ['*.jar'], dir: 'libs')
+        compile "com.android.support:appcompat-v7:25.3.1" // Required for chatkit lib
+        compile "com.android.support:design:25.3.1" // Required for chatkit lib
+        compile "com.google.android:flexbox:0.2.5" // Required for chatkit lib
+        compile(name: 'chatkit', ext: 'aar')
+    }
+
+
 
 [ ![Download](https://api.bintray.com/packages/troy379/maven/ChatKit/images/download.svg) ](https://bintray.com/troy379/maven/ChatKit/_latestVersion)
 
