@@ -1,5 +1,7 @@
 # ChatKit for Android
 
+This Fork Created and made access to some classes and methods, to be able to make more complicated message styling
+
 [ ![Download](https://api.bintray.com/packages/troy379/maven/ChatKit/images/download.svg) ](https://bintray.com/troy379/maven/ChatKit/_latestVersion)
 
 ChatKit is a library designed to simplify the development of UI for such a trivial task as chat. It has flexible possibilities for styling, customizing and data management
